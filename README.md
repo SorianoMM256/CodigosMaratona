@@ -11,14 +11,14 @@ Este repositório reúne as soluções implementadas em **C/C++**, organizadas p
 ## Estrutura do Repositório
 
 A organização dos arquivos segue o padrão abaixo:
-
+```text
 ├── Lista1/
 │ ├── problemaA.cpp
 │ ├── problemaB.c
 ├── Lista2/
 │ ├── problema1.c
 │ ├── problema2.cpp
-
+```
 
 Cada diretório contém os arquivos fonte referentes aos exercícios de um determinado tema.
 
@@ -27,13 +27,13 @@ Cada diretório contém os arquivos fonte referentes aos exercícios de um deter
 Os códigos foram desenvolvidos em **C/C++** e podem ser compilados utilizando o compilador `g++`.
 
 ### Compilação
-
+```bash
 g++ nome_do_arquivo.cpp -o nome_do_programa
-
+```
 ### Execução
-
+```bash
 ./nome_do_programa
-
+```
 ## Objetivos
 
 -Aplicar conceitos de algoritmos e estruturas de dados.
