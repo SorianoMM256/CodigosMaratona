@@ -1,0 +1,42 @@
+#include <stdio.h>
+
+void bubbleSort(int array[], int size) {
+    for (int step = 0; step < size - 1; ++step) {
+        for (int i = 0; i < size - step - 1; ++i) {
+            if (array[i] > array[i + 1]) {
+                int temp = array[i];
+                array[i] = array[i + 1];
+                array[i + 1] = temp;
+            }
+        }
+    }
+}
+
+
+int main(){
+    int n, m;
+    
+    while ((scanf("%d %d", &n, &m) == 2)&& (n != 0 && m !=0)){
+        int cont = 0;
+        int vet[m];
+        for(int i = 0; i < m; i++){
+            scanf("%d", &vet[i]);
+        }
+        bubbleSort(vet, m);
+        
+        
+        for(int j = 1; j < m; j++){
+            if(vet[j] == vet[j-1]) {
+                cont++;
+                while(j < m && vet[j] == vet[j-1]){
+                    j++;
+                }
+            }
+        }
+        
+        printf("%d\n", cont);
+    }
+    
+    
+    return 0;
+}
