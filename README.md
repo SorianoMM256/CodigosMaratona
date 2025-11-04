@@ -45,9 +45,13 @@ g++ nome_do_arquivo.cpp -o nome_do_programa
 -Aperfeiçoar a escrita de código limpo e organizado.
 
 ## Autor
+
 Matheus Motta Soriano
+
 Estudante de Sistemas de Informação - UNIFEI
+
 matheusmottasoriano@gmail.com
+
 Git: SoruanoMM256
 
 ## Licença
